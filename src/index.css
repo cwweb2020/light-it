@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #efefef
+  ;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.side-arrow {
+    clip-path: polygon(0 0, 0 0, 51% 12%, 51% 85%, 0 100%, 0 100%, 0% 80%, 0% 20%);
+    height: 73px;
+    display: flex;
+    align-items: center;
+    width: 65px;
+    right: -60px;
+    background-color: #f7f7f7 !important;
+}
+.side-arrow img {
+  width: 20px;
+}
+
+.header-select {
+  appearance: none;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAdCAYAAADGgB7AAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA4ZVhJZk1NACoAAAAIAAGHaQAEAAAAAQAAABoAAAAAAAKgAgAEAAAAAQAAAB2gAwAEAAAAAQAAACYAAAAAK0K9/AAAAl1JREFUWEftlT1oFEEUx9/sXSRiK/gBacRCtFBzRAVLNRYWalAQQcLu7G1OUQtBTJlGjIWIUUEu7EU5EDFNCi0MFiliYzhzV1gEPypbQRPkOG8zzze7zwPv9m73Tu32V+y89593M/+dncdBQkJCwj/Ctu0tpukMcvrXSCl3WtbFHZy2xeAxFFM6toLUF5ESJdN27rHcM5Ycu4MivQKG+mBZuSzLoXQ0BkLcpGfaD0FcpYUnddwLlu3cokWuUaj3NMDA2/5EGzoaEwjvOAwQcINO8TJnsQl+I8Y5ZfAbB6F0NgbiOmLLAlNSZs9xHAnXTgUZg7imPDjJWSiCx7aMytxhA9RrIUQ/SxoPFJ4oFPLznIdiWc4wGOIlhf51YGrrKI48cR+94TyUzneM8Bcw8CydHLKkSaMh5qTMHeC8BT2nayhsmNJroFBnokxpIo1pZqanX9BgBlkAHfVGBerVaDa7h6UGpjm2W8/pGpZ+Y/JakaR4jKS8XKrsH8zUyNJRlqhpRT+92el9ew8+L5eXVrVmmpcG6IQXaW6zX8QohPHHbv4hp5FE3rFmqMPu06Z/dibiR6/ed0iHqQ31RWqaXb7O0Ad8MOPmr3Aai66NEcKSzlM6rubOLJGDr6QPcx6A+Kzg5s/rKBDiEeuONYGfP22/QBs2d2QmxNS8X9ulKU0vxmBhYcKr/6yO0HbLLLWC8HZtddMpXctKV/RkTFMsFn949fQxMrDCUgMEfK/Wa8dnZ+9WWeqa2F0ZRqWyVB0ayhSVElvp/2sbXb86fbO5PgNGXNf9zmUJCQkJ/w+AX0uzykpD0Na/AAAAAElFTkSuQmCCFdRJVtduNWyLjBAC71H9hv+bytXqzXdeUKInFUgq0HEFfgOAntKsaHhrCQAAAABJRU5ErkJggg==);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 8px) center;
+  background-size: 16px;
+  padding-right: 0 !important;
+  cursor: pointer;
+}
